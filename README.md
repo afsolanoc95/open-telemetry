@@ -71,3 +71,7 @@ El tiempo de espera (delay) puede ajustarse según el comportamiento de la API, 
 se debe agregar y correr esta imagen
 docker run -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm -ti grafana/otel-lgtm
 
+
+View Grafana
+Navigate to http://127.0.0.1:3000 and log in with the default built-in user admin and password admin.
+
