@@ -65,3 +65,9 @@ El umbral de recuperación (successThreshold = 1) es adecuado si la API vuelve a
 
 El tiempo de espera (delay) puede ajustarse según el comportamiento de la API, para equilibrar disponibilidad y rapidez en la recuperación.
 
+
+
+
+se debe agregar y correr esta imagen
+docker run -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm -ti grafana/otel-lgtm
+
